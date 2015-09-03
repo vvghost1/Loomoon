@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C85E0861B97BAE70020A02D /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C85E0851B97BAE70020A02D /* UserInfoViewController.swift */; };
+		2C85E0881B97CFBD0020A02D /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C85E0871B97CFBD0020A02D /* DataModel.swift */; };
+		2C85E08A1B9878860020A02D /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C85E0891B9878860020A02D /* UserTableViewCell.swift */; };
+		2C85E08C1B9880F10020A02D /* TagTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C85E08B1B9880F10020A02D /* TagTableViewCell.swift */; };
+		2CFCA5421B9737D70023FD28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCA5411B9737D70023FD28 /* AppDelegate.swift */; };
+		2CFCA5441B9737D70023FD28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCA5431B9737D70023FD28 /* ViewController.swift */; };
+		2CFCA5471B9737D70023FD28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFCA5451B9737D70023FD28 /* Main.storyboard */; };
+		2CFCA5491B9737D70023FD28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFCA5481B9737D70023FD28 /* Images.xcassets */; };
+		2CFCA54C1B9737D70023FD28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CFCA54A1B9737D70023FD28 /* LaunchScreen.xib */; };
+		2CFCA5581B9737D70023FD28 /* LoomoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCA5571B9737D70023FD28 /* LoomoonTests.swift */; };
+		2CFCA5621B973BC80023FD28 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFCA5611B973BC80023FD28 /* Networking.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CFCA5521B9737D70023FD28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CFCA5341B9737D70023FD28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CFCA53B1B9737D70023FD28;
+			remoteInfo = Loomoon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C85E0851B97BAE70020A02D /* UserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		2C85E0871B97CFBD0020A02D /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		2C85E0891B9878860020A02D /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		2C85E08B1B9880F10020A02D /* TagTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagTableViewCell.swift; sourceTree = "<group>"; };
+		2CFCA53C1B9737D70023FD28 /* Loomoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loomoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CFCA5401B9737D70023FD28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CFCA5411B9737D70023FD28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CFCA5431B9737D70023FD28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CFCA5461B9737D70023FD28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CFCA5481B9737D70023FD28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2CFCA54B1B9737D70023FD28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2CFCA5511B9737D70023FD28 /* LoomoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoomoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CFCA5561B9737D70023FD28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CFCA5571B9737D70023FD28 /* LoomoonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoomoonTests.swift; sourceTree = "<group>"; };
+		2CFCA5611B973BC80023FD28 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CFCA5391B9737D70023FD28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CFCA54E1B9737D70023FD28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CFCA5331B9737D70023FD28 = {
+			isa = PBXGroup;
+			children = (
+				2CFCA53E1B9737D70023FD28 /* Loomoon */,
+				2CFCA5541B9737D70023FD28 /* LoomoonTests */,
+				2CFCA53D1B9737D70023FD28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CFCA53D1B9737D70023FD28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CFCA53C1B9737D70023FD28 /* Loomoon.app */,
+				2CFCA5511B9737D70023FD28 /* LoomoonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CFCA53E1B9737D70023FD28 /* Loomoon */ = {
+			isa = PBXGroup;
+			children = (
+				2CFCA5411B9737D70023FD28 /* AppDelegate.swift */,
+				2CFCA5431B9737D70023FD28 /* ViewController.swift */,
+				2C85E0851B97BAE70020A02D /* UserInfoViewController.swift */,
+				2C85E0891B9878860020A02D /* UserTableViewCell.swift */,
+				2C85E08B1B9880F10020A02D /* TagTableViewCell.swift */,
+				2C85E0871B97CFBD0020A02D /* DataModel.swift */,
+				2CFCA5611B973BC80023FD28 /* Networking.swift */,
+				2CFCA5451B9737D70023FD28 /* Main.storyboard */,
+				2CFCA5481B9737D70023FD28 /* Images.xcassets */,
+				2CFCA54A1B9737D70023FD28 /* LaunchScreen.xib */,
+				2CFCA53F1B9737D70023FD28 /* Supporting Files */,
+			);
+			path = Loomoon;
+			sourceTree = "<group>";
+		};
+		2CFCA53F1B9737D70023FD28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CFCA5401B9737D70023FD28 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CFCA5541B9737D70023FD28 /* LoomoonTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CFCA5571B9737D70023FD28 /* LoomoonTests.swift */,
+				2CFCA5551B9737D70023FD28 /* Supporting Files */,
+			);
+			path = LoomoonTests;
+			sourceTree = "<group>";
+		};
+		2CFCA5551B9737D70023FD28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CFCA5561B9737D70023FD28 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CFCA53B1B9737D70023FD28 /* Loomoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CFCA55B1B9737D70023FD28 /* Build configuration list for PBXNativeTarget "Loomoon" */;
+			buildPhases = (
+				2CFCA5381B9737D70023FD28 /* Sources */,
+				2CFCA5391B9737D70023FD28 /* Frameworks */,
+				2CFCA53A1B9737D70023FD28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Loomoon;
+			productName = Loomoon;
+			productReference = 2CFCA53C1B9737D70023FD28 /* Loomoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CFCA5501B9737D70023FD28 /* LoomoonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CFCA55E1B9737D70023FD28 /* Build configuration list for PBXNativeTarget "LoomoonTests" */;
+			buildPhases = (
+				2CFCA54D1B9737D70023FD28 /* Sources */,
+				2CFCA54E1B9737D70023FD28 /* Frameworks */,
+				2CFCA54F1B9737D70023FD28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CFCA5531B9737D70023FD28 /* PBXTargetDependency */,
+			);
+			name = LoomoonTests;
+			productName = LoomoonTests;
+			productReference = 2CFCA5511B9737D70023FD28 /* LoomoonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CFCA5341B9737D70023FD28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Yura Vorontsov";
+				TargetAttributes = {
+					2CFCA53B1B9737D70023FD28 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2CFCA5501B9737D70023FD28 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2CFCA53B1B9737D70023FD28;
+					};
+				};
+			};
+			buildConfigurationList = 2CFCA5371B9737D70023FD28 /* Build configuration list for PBXProject "Loomoon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CFCA5331B9737D70023FD28;
+			productRefGroup = 2CFCA53D1B9737D70023FD28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CFCA53B1B9737D70023FD28 /* Loomoon */,
+				2CFCA5501B9737D70023FD28 /* LoomoonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CFCA53A1B9737D70023FD28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFCA5471B9737D70023FD28 /* Main.storyboard in Resources */,
+				2CFCA54C1B9737D70023FD28 /* LaunchScreen.xib in Resources */,
+				2CFCA5491B9737D70023FD28 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CFCA54F1B9737D70023FD28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CFCA5381B9737D70023FD28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C85E0881B97CFBD0020A02D /* DataModel.swift in Sources */,
+				2CFCA5621B973BC80023FD28 /* Networking.swift in Sources */,
+				2C85E0861B97BAE70020A02D /* UserInfoViewController.swift in Sources */,
+				2C85E08C1B9880F10020A02D /* TagTableViewCell.swift in Sources */,
+				2CFCA5441B9737D70023FD28 /* ViewController.swift in Sources */,
+				2C85E08A1B9878860020A02D /* UserTableViewCell.swift in Sources */,
+				2CFCA5421B9737D70023FD28 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CFCA54D1B9737D70023FD28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFCA5581B9737D70023FD28 /* LoomoonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CFCA5531B9737D70023FD28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CFCA53B1B9737D70023FD28 /* Loomoon */;
+			targetProxy = 2CFCA5521B9737D70023FD28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CFCA5451B9737D70023FD28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CFCA5461B9737D70023FD28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CFCA54A1B9737D70023FD28 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CFCA54B1B9737D70023FD28 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CFCA5591B9737D70023FD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CFCA55A1B9737D70023FD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CFCA55C1B9737D70023FD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Loomoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CFCA55D1B9737D70023FD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Loomoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2CFCA55F1B9737D70023FD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LoomoonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loomoon.app/Loomoon";
+			};
+			name = Debug;
+		};
+		2CFCA5601B9737D70023FD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LoomoonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loomoon.app/Loomoon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CFCA5371B9737D70023FD28 /* Build configuration list for PBXProject "Loomoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFCA5591B9737D70023FD28 /* Debug */,
+				2CFCA55A1B9737D70023FD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CFCA55B1B9737D70023FD28 /* Build configuration list for PBXNativeTarget "Loomoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFCA55C1B9737D70023FD28 /* Debug */,
+				2CFCA55D1B9737D70023FD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CFCA55E1B9737D70023FD28 /* Build configuration list for PBXNativeTarget "LoomoonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFCA55F1B9737D70023FD28 /* Debug */,
+				2CFCA5601B9737D70023FD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CFCA5341B9737D70023FD28 /* Project object */;
+}
