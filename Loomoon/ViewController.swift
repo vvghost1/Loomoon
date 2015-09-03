@@ -55,7 +55,7 @@ class ViewController: UIViewController, LoginDelegate, UITextFieldDelegate
     
     func loginSuccess()
     {
-        sleep(5)
+        //sleep(5)
         resetToStartState()
         performSegueWithIdentifier("userInfo", sender: nil)
     }
